@@ -1,0 +1,101 @@
+@import 'modules/reset.scss';
+@import 'modules/color.scss';
+@import 'modules/font.scss';
+@import 'pages/_oeuvre.scss';
+@import 'modules/_header.scss';
+@import 'modules/_footer.scss';
+@import 'modules/_banner_intro.scss';
+@import 'pages/_home.scss';
+@import 'pages/_galerie.scss';
+@import 'pages/_exposition.scss';
+@import 'pages/_contact.scss';
+
+
+.separator{
+    background-color: #ec644d;
+    content: "";
+    display: inline-block;
+    height: 7px;
+    margin-right: 18px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    vertical-align: middle;
+    width: 7px;
+    margin: 10px;
+}
+
+.container{
+    height: 100%;
+    .row{
+        height: 100%;
+        position: relative;
+    }
+}
+
+.btn-arrow{
+    padding: 18px 30px;
+    background-color: white;
+    width: fit-content;
+    display: flex;
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: .875rem;
+    text-decoration: none;
+    color: $primary-color;
+    transition: 0.25s ease-in-out all;
+    p{
+        transition: 0.25s ease-in-out all;
+    }
+    .icon_btn{
+        padding-left: 10px;
+    }
+}
+
+.btn-arrow:hover{
+    color: white;
+    background-color: $primary-color;
+    p{
+        color: white;
+    }
+}
+
+
+.btn-arrow_border, input[type=submit]{
+    padding: 18px 30px;
+    background-color: white;
+    border: solid 1px $primary-color;
+    width: fit-content;
+    display: flex;
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: .875rem;
+    text-decoration: none;
+    color: $primary-color;
+    transition: 0.25s ease-in-out all;
+    p{
+        transition: 0.25s ease-in-out all;
+    }
+    .icon_btn{
+        padding-left: 10px;
+    }
+}
+
+.btn-arrow_border:hover{
+    color: white;
+    background-color: $primary-color;
+    p{
+        color: white;
+    }
+}
+
+.text{
+    line-height: 125%;
+}
+
+.centerimg{
+    display: block;
+    margin: auto;
+}

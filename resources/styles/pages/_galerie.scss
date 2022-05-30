@@ -1,0 +1,92 @@
+ section.galerie{
+     padding-bottom: 45px;
+    .cardgallerie{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.25);
+        .fontcardgallerie{
+            padding: 15px;
+            height: 80px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+        }
+        .btn-arrow_border{
+            margin-bottom: 25px;
+        }
+        .containerImgGalerie{
+            width: 100%;
+            height: 140px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+        }
+    }
+    h1{
+        color: $primary-color;
+        padding: 25px 0;
+    }
+    .sous_titre{
+        padding-bottom: 45px;
+    }
+    h2{
+        padding-bottom: 25px;
+    }
+    figcaption{
+        text-align: center;
+        font-weight: bold;
+        color: $primary-color;
+        font-size: 18px;
+        font-family: 'Karla';
+    }
+    .artiste{
+        text-align: center;
+        font-weight: lighter;
+        font-size: 14px;
+    }
+    .desc_oeuvre{
+        font-size: 14px;
+        font-family: 'open sans';
+        padding: 15px 0 25px 0;
+    }
+    .text_oeuvre_phare{
+        font-family: 'open sans';
+        font-weight: bold;
+        font-size: 17px;
+        padding: 45px 0 25px 0;
+    }
+    .img_galerie{
+        display: block;
+        margin: auto;
+    }
+}
+
+section.gallerie{
+    h2{
+        padding: 25px 0 45px 0;
+    }
+    .descsubtitle{
+        padding-bottom: 25px;
+    }
+    .cardgallerie{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.25);
+        img{
+            width: 100%;
+            height: auto;
+        }
+        .fontcardgallerie{
+            padding: 15px;
+        }
+        .btn-arrow_border{
+            margin-bottom: 25px;
+        }
+    }
+}

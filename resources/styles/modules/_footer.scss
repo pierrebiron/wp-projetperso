@@ -1,0 +1,23 @@
+.col-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .sponsor{
+        color: white;
+        z-index: 99;
+    }
+}
+.petit-footer{
+    text-align: center;
+    padding: 15px 0px
+}
+.grand-footer{
+    height: 180px;
+    background-color: #5b5b5b;
+}
+.listsponsor{
+    img:nth-child(n+2){
+        margin-left: 15px;
+    }
+}

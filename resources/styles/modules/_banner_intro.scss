@@ -1,0 +1,24 @@
+.container_banner{
+    width: 100%;
+    position: relative;
+    height: auto;
+    z-index: -1;
+    .black_banner{
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.5);
+    }
+    img{
+        width: 100%;
+        height: auto;
+    }
+    h1{
+        position: absolute;
+        z-index: 99;
+        top: 123px;
+    }
+}
+

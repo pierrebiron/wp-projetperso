@@ -1,0 +1,65 @@
+section.contact{
+    padding:45px 0px;
+    h2{
+        padding-bottom: 25px;
+    }
+    h3{
+        padding-bottom: 15px;
+    }
+    label{
+        font-size: 14px;
+    }
+    input, select{
+        height: 50px;
+        border: solid 1px $primary-color;
+        width: 100%;
+    }
+    .info-contact{
+        p{
+            padding-bottom: 5px;
+        }
+    }
+    .firstrow{
+        display:flex;
+        padding-bottom: 20px;
+        div{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+        }
+        
+    }
+    .secondrow{
+        div{
+            display: flex;
+            flex-direction: column;
+        }
+        textarea{
+            width: 100%;
+            margin-bottom: 12px;
+        }
+    }
+    .thirdrow{
+        div{
+            display: flex;
+            flex-direction: column;
+        }
+        input[type=checkbox]{
+            width: 15px;
+            height: 15px;
+            border: solid 1px $primary-color;
+            background-color: white;
+        }
+        input[type=checkbox]:checked {
+            background-color: $primary-color;
+            padding: 3px;
+          }
+    }
+    .fourthrow{
+        input[type=submit]{
+            width: fit-content;
+        }
+        padding-left: 12px;
+        padding-top: 12px;
+    }
+}
